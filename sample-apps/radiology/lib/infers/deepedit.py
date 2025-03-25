@@ -52,7 +52,7 @@ class DeepEdit(BasicInferTask):
         type=InferType.DEEPEDIT,
         labels=None,
         dimension=3,
-        spatial_size=(128, 128, 64),
+        spatial_size=(32, 32, 0),
         target_spacing=(1.0, 1.0, 1.0),
         number_intensity_ch=1,
         description="A DeepEdit model for volumetric (3D) segmentation over 3D Images",
